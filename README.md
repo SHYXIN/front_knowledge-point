@@ -4,6 +4,7 @@
 
 | 框架/版本 | 是否使用TypeScript | 目录结构差异 | ESLint配置差异 | 组件写法差异 | 生命周期/Hook差异 | Router使用差异 | 代码风格/格式化差异 |
 |---------|----------------|-----------|-------------|-----------|----------------|------------|----------------|
+| Vue2 | 否 | Vue2结构，使用`main.js`入口文件，基于选项式API | 使用`plugin:vue/essential`，无TypeScript相关配置 | 使用选项式API（data, computed, methods等） | Vue2生命周期钩子（beforeCreate, created, beforeMount, mounted, beforeUpdate, updated, beforeDestroy, destroyed） | Vue Router 3，使用`new VueRouter()`构造函数，`mode`配置 | 使用ESLint + Prettier，无TypeScript类型检查 |
 | Vue3 | 否 | Vue3结构，使用`main.js`入口文件，支持组合式API | 使用`plugin:vue/vue3-essential`，无TypeScript相关配置 | 支持`script setup`语法，组合式API | Vue3生命周期钩子（onBeforeMount, onMounted, onBeforeUpdate, onUpdated, onBeforeUnmount, onUnmounted） | Vue Router 4，使用`createRouter()`函数，`history`配置 | 使用ESLint + Prettier，无TypeScript类型检查 |
 | Vue3 | 是 | Vue3结构，使用`main.ts`入口文件，支持组合式API | 使用`@vue/eslint-config-typescript`和`@typescript-eslint/parser` | 支持`script setup lang="ts"`语法，组合式API + TypeScript | Vue3生命周期钩子，带TypeScript类型 | Vue Router 4，TypeScript支持 | 使用ESLint + Prettier + TypeScript，严格类型检查 |
 | React | 否 | React结构，使用`main.jsx`入口文件，函数式组件 | 使用`plugin:react/recommended`，无TypeScript相关配置 | 函数式组件 + Hooks | React Hooks（useState, useEffect, useMemo等） | React Router 6，使用`Routes`和`Route`组件 | 使用ESLint + Prettier，无TypeScript类型检查 |
@@ -42,6 +43,7 @@
 
 | 框架/版本 | ESLint配置主要差异 | Prettier配置差异 |
 |---------|----------------|-------------|
+| Vue2 | 使用`plugin:vue/essential` | 无差异，统一配置 |
 | Vue3 | 使用`plugin:vue/vue3-essential` | 无差异，统一配置 |
 | Vue3 + TS | 增加`@vue/eslint-config-typescript`和`@typescript-eslint/parser` | 无差异，统一配置 |
 | React | 使用`plugin:react/recommended` | 无差异，统一配置 |
@@ -63,7 +65,8 @@
 
 1. **框架选择**：
    - 新项目推荐使用Vue3或React 18 + TypeScript
-   - 维护旧项目可继续使用React + JavaScript
+   - 维护旧项目可继续使用Vue2、Vue3或React + JavaScript
+   - Vue2适用于需要稳定、成熟框架的项目，有大量社区资源和插件支持
 
 2. **TypeScript使用**：
    - 大型项目推荐使用TypeScript，提高代码质量和可维护性

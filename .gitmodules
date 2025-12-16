@@ -4,3 +4,6 @@
 [submodule "learning-vue-app"]
 	path = learning-vue-app
 	url = git@gitee.com:theshyxin/learning-vue-app.git
+[submodule "es_prettieerc_vue_ts"]
+	path = es_prettieerc_vue_ts
+	url = git@gitee.com:theshyxin/es_prettieerc_vue_ts.git

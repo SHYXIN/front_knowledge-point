@@ -1,3 +1,6 @@
 [submodule "Vue.js-3-By-Example"]
 	path = Vue.js-3-By-Example
 	url = git@gitee.com:theshyxin/Vue.js-3-By-Example.git
+[submodule "learning-vue-app"]
+	path = learning-vue-app
+	url = git@gitee.com:theshyxin/learning-vue-app.git

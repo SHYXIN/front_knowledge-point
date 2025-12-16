@@ -7,3 +7,6 @@
 [submodule "es_prettieerc_vue_ts"]
 	path = es_prettieerc_vue_ts
 	url = git@gitee.com:theshyxin/es_prettieerc_vue_ts.git
+[submodule "vue3_element_learn"]
+	path = vue3_element_learn
+	url = https://gitee.com/theshyxin/vue3_element_learn.git

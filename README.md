@@ -103,3 +103,7 @@
 4. **Windows + NVM**：
    - [NVM for Windows](https://github.com/coreybutler/nvm-windows)
    - [Windows环境下的Node.js开发](https://nodejs.org/en/docs/guides/windows-environment-setup/)
+
+## Git子模块操作指南
+
+本项目使用了多个Git子模块来管理不同的前端示例项目。详细的Git子模块操作指南请参考：[git子模块操作.md](git子模块操作.md)

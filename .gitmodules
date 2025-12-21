@@ -10,3 +10,9 @@
 [submodule "vue3_element_learn"]
 	path = vue3_element_learn
 	url = https://gitee.com/theshyxin/vue3_element_learn.git
+[submodule "Vue.js-3.0-Cookbook"]
+	path = Vue.js-3.0-Cookbook
+	url = git@gitee.com:theshyxin/Vue.js-3.0-Cookbook.git
+[submodule "Building-Vue.js-Applications-with-GraphQL"]
+	path = Building-Vue.js-Applications-with-GraphQL
+	url = git@gitee.com:theshyxin/Building-Vue.js-Applications-with-GraphQL.git

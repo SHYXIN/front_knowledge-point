@@ -37,6 +37,8 @@ git submodule add <仓库URL> <本地路径>
 
 ```bash
 git submodule add git@gitee.com:theshyxin/Vue.js-3-By-Example.git Vue.js-3-By-Example
+git submodule add git@gitee.com:theshyxin/Vue.js-3.0-Cookbook.git Vue.js-3.0-Cookbook
+git submodule add git@gitee.com:theshyxin/Building-Vue.js-Applications-with-GraphQL.git Building-Vue.js-Applications-with-GraphQL
 ```
 
 这将：

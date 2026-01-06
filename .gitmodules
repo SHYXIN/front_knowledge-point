@@ -16,3 +16,9 @@
 [submodule "Building-Vue.js-Applications-with-GraphQL"]
 	path = Building-Vue.js-Applications-with-GraphQL
 	url = git@gitee.com:theshyxin/Building-Vue.js-Applications-with-GraphQL.git
+[submodule "front-end-development-practical-school"]
+	path = front-end-development-practical-school
+	url = git@gitee.com:theshyxin/front-end-development-practical-school.git
+[submodule "agent_docs"]
+	path = agent_docs
+	url = git@gitee.com:theshyxin/agent_docs.git

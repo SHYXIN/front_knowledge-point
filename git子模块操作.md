@@ -21,6 +21,18 @@ Git子模块（Git Submodule）允许您将一个Git仓库作为另一个Git仓�
 [submodule "vue3_element_learn"]
 	path = vue3_element_learn
 	url = https://gitee.com/theshyxin/vue3_element_learn.git
+[submodule "Vue.js-3.0-Cookbook"]
+	path = Vue.js-3.0-Cookbook
+	url = git@gitee.com:theshyxin/Vue.js-3.0-Cookbook.git
+[submodule "Building-Vue.js-Applications-with-GraphQL"]
+	path = Building-Vue.js-Applications-with-GraphQL
+	url = git@gitee.com:theshyxin/Building-Vue.js-Applications-with-GraphQL.git        
+[submodule "front-end-development-practical-school"]
+	path = front-end-development-practical-school
+	url = git@gitee.com:theshyxin/front-end-development-practical-school.git
+[submodule "agent_docs"]
+	path = agent_docs
+	url = git@gitee.com:theshyxin/agent_docs.git
 ```
 
 ## 子模块操作命令
@@ -39,6 +51,9 @@ git submodule add <仓库URL> <本地路径>
 git submodule add git@gitee.com:theshyxin/Vue.js-3-By-Example.git Vue.js-3-By-Example
 git submodule add git@gitee.com:theshyxin/Vue.js-3.0-Cookbook.git Vue.js-3.0-Cookbook
 git submodule add git@gitee.com:theshyxin/Building-Vue.js-Applications-with-GraphQL.git Building-Vue.js-Applications-with-GraphQL
+git submodule add git@gitee.com:theshyxin/front-end-development-practical-school.git front-end-development-practical-school
+
+git submodule add git@gitee.com:theshyxin/agent_docs.git agent_docs
 ```
 
 这将：
